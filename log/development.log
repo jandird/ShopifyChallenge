@@ -47,3 +47,600 @@ Migrating to CreateProducts (20190116043731)
   ↳ bin/rails:9
   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
   ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Captain Sobek XI', 'Vitakinesis', 2684359, 52, 28, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (128.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Illustrious Leader', 'Energy Constructs', 3206158, 47, 60, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Darkseid Woman', 'Reality Warping', 6535134, 55, 80, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Hawk Ivy', 'Seismic Power', 6468662, 40, 46, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Ultra Giganta Spirit', 'Enhanced Touch', 1067179, 64, 49, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Blink', 'Enhanced Smell', 1569847, 90, 77, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('The Warpath', 'Radiation Absorption', 8499323, 70, 17, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Sylar Brain', 'Vision - Cryo', 6169483, 29, 81, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Doctor Brainiac Brain', 'Energy Manipulation', 2216572, 51, 55, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Falcon', 'Omnipotence', 3495380, 86, 30, '2019-01-16 16:37:22', '2019-01-16 16:37:22')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Ultra Wildfire Eyes', 'Geokinesis', 8876497, 67, 98, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (55.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Stacy X Girl', 'Electrokinesis', 8618980, 31, 58, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Red Falcon the Fated', 'Vision - Cryo', 7616745, 62, 36, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Ultra Scarecrow', 'Seismic Power', 1973041, 76, 18, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Valkyrie', 'Invisibility', 9038751, 38, 77, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Giant Ego Wolf', 'Adaptation', 9624996, 54, 67, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Doc Samson', 'Vaporising Beams', 9818178, 61, 68, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Spider', 'Photokinesis', 8550379, 29, 15, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Dark Hawk', 'Enhanced Sight', 5851919, 53, 93, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('The Boomer', 'Seismic Power', 7743628, 50, 87, '2019-01-16 16:38:10', '2019-01-16 16:38:10')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (13.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Mephisto Strange', 'Thermokinesis', 4408070, 10, 77, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (53.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('The Sinestro Fist', 'Gliding', 8097651, 90, 80, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('The Hell Spirit', 'Invulnerability', 4624089, 86, 99, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Valkyrie', 'Portal Creation', 9996726, 61, 45, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Etrigan', 'Flight', 4615029, 76, 58, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Cyborg Mystique Spirit', 'Immortality', 1168456, 85, 45, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Jigsaw', 'Telekinesis', 8369873, 63, 33, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Violet II', 'Lantern Power Ring', 3899111, 27, 74, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Buffy', 'Darkforce Manipulation', 7056371, 42, 76, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Giant Chameleon Skull', 'Mind Control Resistance', 3773600, 36, 76, '2019-01-16 16:39:04', '2019-01-16 16:39:04')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (2.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2019-01-16 11:53:45 -0500
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (11.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (14.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateProducts (20190116043731)
+  [1m[35m (1.3ms)[0m  [1m[35mDROP TABLE `products`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (12.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE `shopify` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (81.6ms)[0m  [1m[35mCREATE DATABASE `ShopifyChallenge_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ db/schema.rb:13
+  [1m[35m (15.1ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20190116043731)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2019-01-16 17:28:11', '2019-01-16 17:28:11')[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE `ar_internal_metadata` SET `value` = 'test' WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (40.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (15.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (11.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (14.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE `shopify` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (19.0ms)[0m  [1m[35mCREATE DATABASE `ShopifyChallenge_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (14.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (154.3ms)[0m  [1m[35mCREATE DATABASE `shopify` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE DATABASE `ShopifyChallenge_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (141.2ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4734667854559822725', 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateProducts (20190116043731)
+  [1m[35m (7.6ms)[0m  [1m[35mCREATE TABLE `products` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `item_id` int, `price` decimal(10,2), `quantity` int, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20190116043731_create_products.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190116043731')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2019-01-16 17:32:54', '2019-01-16 17:32:54')[0m
+  ↳ bin/rails:9
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('4734667854559822725')[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('The Metron', 'Umbrakinesis', 9125558, 48.41, 28, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (87.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Rambo Claw', 'Camouflage', 1766823, 18.92, 55, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Mr Guardian', 'Entropy Projection', 1994444, 94.83, 17, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('T Thirteen', 'Density Control', 3395833, 82.74, 71, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Bumblebee Dragon', 'Flight', 9449635, 78.07, 83, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Dark Darkstar', 'Cold Resistance', 4011431, 50.27, 45, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('The Overtkill', 'Animal Control', 2626940, 24.73, 52, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Ra\'s Al Ghul Lord', 'Time Travel', 2045315, 37.98, 83, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Polaris Girl', 'Shapeshifting', 1880167, 48.91, 68, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.2ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Bantam', 'Telekinesis', 1040183, 17.85, 81, '2019-01-16 17:33:16', '2019-01-16 17:33:16')[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12

@@ -12,11 +12,11 @@
 
 ActiveRecord::Schema.define(version: 2019_01_16_043731) do
 
-  create_table "products", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci", force: :cascade do |t|
+  create_table "products", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.text "description"
     t.integer "item_id"
-    t.decimal "price", precision: 10
+    t.decimal "price", precision: 10, scale: 2
     t.integer "quantity"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

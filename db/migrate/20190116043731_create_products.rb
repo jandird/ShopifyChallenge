@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.string :name
       t.text :description
       t.integer :item_id
-      t.decimal :price
+      t.decimal :price, precision: 10, scale: 2
       t.integer :quantity
 
       t.timestamps
