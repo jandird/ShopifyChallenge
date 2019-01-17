@@ -59,18 +59,17 @@ module Api
         if @return.nil? # Making sure product was found
           @return = { 'Error': 'Product not found' }
         else
-          product_quantity.to_i
           stock = @return.quantity
 
           if stock == 0
             @return = { 'Error': 'Product is sold out' }
-          elsif stock < product_quantity
+          elsif stock < product_quantity.to_i
             @return = { 'Error': 'Not enough stock left to meet quantity' }
           else
             if Cart.find_by(item_id: @return.item_id).present?
               @return = { 'Error': 'Product already exists in cart'}
             else
-              @return = { 'Success': product_quantity.to_s + ' x ' + @return.name + ' added to cart!' }
+              @return = { 'Success': product_quantity + ' x ' + @return.name + ' added to cart!' }
             end
           end
         end
