@@ -1545,3 +1545,77 @@ Processing by Api::ShopController#add_to_cart as */*
 Completed 200 OK in 34ms (Views: 0.4ms | ActiveRecord: 18.1ms)
 
 
+Started GET "/api/add_to_cart?name=Supah+Warbird&quantity=2" for 127.0.0.1 at 2019-01-17 22:28:19 -0500
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Supah Warbird", "quantity"=>"2"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Supah Warbird' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  `carts`.* FROM `carts` WHERE `carts`.`item_id` = 7397489 LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:69
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[36mCart Create (0.5ms)[0m  [1m[32mINSERT INTO `carts` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Warbird', 'Durability', 7397489, 92.07, 2, '2019-01-18 03:28:19', '2019-01-18 03:28:19')[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[35m (160.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+Completed 200 OK in 214ms (Views: 0.3ms | ActiveRecord: 183.7ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-17 22:28:26 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:92
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/shop_controller.rb:93:in `block in products_in_cart'
+app/controllers/api/shop_controller.rb:92:in `products_in_cart'
+app/controllers/api/shop_controller.rb:82:in `view_cart'
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-17 22:33:28 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.5ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:92
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 17.1ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/shop_controller.rb:93:in `block in products_in_cart'
+app/controllers/api/shop_controller.rb:92:in `products_in_cart'
+app/controllers/api/shop_controller.rb:82:in `view_cart'
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-17 22:33:41 -0500
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:92
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 14.9ms)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/shop_controller.rb:93:in `block in products_in_cart'
+app/controllers/api/shop_controller.rb:92:in `products_in_cart'
+app/controllers/api/shop_controller.rb:82:in `view_cart'
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-17 22:38:41 -0500
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.6ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:92
+Completed 200 OK in 30ms (Views: 0.4ms | ActiveRecord: 14.4ms)
+
+

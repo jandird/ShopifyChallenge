@@ -69,12 +69,38 @@ module Api
             if Cart.find_by(item_id: @return.item_id).present?
               @return = { 'Error': 'Product already exists in cart'}
             else
+              Cart.create(name: @return.name, description: @return.description, item_id: @return.item_id, price: @return.price, quantity: product_quantity)
               @return = { 'Success': product_quantity + ' x ' + @return.name + ' added to cart!' }
             end
           end
         end
       end
       render json: @return
+    end
+
+    def view_cart
+      render json: products_in_cart
+    end
+
+    def complete_cart
+      render json: { status: 'Success', message: 'Checkout Complete! Thank you for shopping with us!', data: products_in_cart }
+    end
+
+    def products_in_cart
+      cart = []
+      @total = 0
+      Cart.all.each do |product|
+        product_total = product.quantity * product.price
+        @total += product_total
+        cart.append('Name': product.name,
+                    'Description': product.description,
+                    'Item ID': product.item_id,
+                    'Price': product.price,
+                    'Quantity': product.quantity,
+                    'Subtotal': "$#{product_total.round(2)}")
+      end
+      cart.append('Total': "$#{@total.round(2)}")
+      return cart
     end
   end
 end

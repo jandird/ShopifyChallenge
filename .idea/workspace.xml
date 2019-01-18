@@ -4,6 +4,7 @@
     <list default="true" id="dfea2a79-0eb2-4e87-ab70-08ce19494d22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/controllers/api/shop_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/shop_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/shop_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1028">
-              <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+            <state relative-caret-position="195">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -56,15 +57,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20190117155959_create_carts.rb">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -343,24 +335,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547595358638</updated>
-      <workItem from="1547595361962" duration="21167000" />
+      <workItem from="1547595361962" duration="27025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21167000" />
+    <option name="totallyTimeSpent" value="27025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="931" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32928312" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32928312" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -447,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -457,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/shop_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+        <state relative-caret-position="195">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
         </state>
       </provider>
     </entry>
