@@ -78,26 +78,34 @@ module Api
       render json: @return
     end
 
+    # Method to view cart
     def view_cart
-      render json: products_in_cart
+      render json: products_in_cart(false)
     end
 
+    # Method to complete cart
     def complete_cart
-      render json: { status: 'Success', message: 'Checkout Complete! Thank you for shopping with us!', data: products_in_cart }
+      render json: { status: 'Success', message: 'Checkout Complete! Thank you for shopping with us!', data: products_in_cart(true) }
+      Cart.destroy_all
     end
 
-    def products_in_cart
+    # Common method to add cart items to array and remove items from quantity count (complete is to lower product inventory)
+    def products_in_cart (complete)
       cart = []
       @total = 0
-      Cart.all.each do |product|
-        product_total = product.quantity * product.price
+      Cart.all.each do |item|
+        product_total = item.quantity * item.price
         @total += product_total
-        cart.append('Name': product.name,
-                    'Description': product.description,
-                    'Item ID': product.item_id,
-                    'Price': product.price,
-                    'Quantity': product.quantity,
+        cart.append('Name': item.name,
+                    'Description': item.description,
+                    'Item ID': item.item_id,
+                    'Price': item.price,
+                    'Quantity': item.quantity,
                     'Subtotal': "$#{product_total.round(2)}")
+        if complete
+          product = Product.find_by(name: item.name)
+          product.update_columns(quantity: product.quantity - item.quantity)
+        end
       end
       cart.append('Total': "$#{@total.round(2)}")
       return cart

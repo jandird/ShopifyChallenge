@@ -1619,3 +1619,412 @@ Processing by Api::ShopController#view_cart as */*
 Completed 200 OK in 30ms (Views: 0.4ms | ActiveRecord: 14.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-01-19 09:56:21 -0500
+  [1m[35m (56.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-19 21:30:42 -0500
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-19 21:30:47 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:30:57 -0500
+Processing by Api::ShopController#show as HTML
+  [1m[36mProduct Load (44.6ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 99ms (Views: 22.4ms | ActiveRecord: 73.4ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:31:32 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.8ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 56.3ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2019-01-19 21:31:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/show"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/show" for 127.0.0.1 at 2019-01-19 21:31:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/show"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:32:15 -0500
+Processing by Api::ShopController#show as */*
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:32:22 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/complete_cart" for 127.0.0.1 at 2019-01-19 21:32:29 -0500
+Processing by Api::ShopController#complete_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[36mCart Destroy (45.4ms)[0m  [1m[31mDELETE FROM `carts` WHERE `carts`.`id` = 1[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[35m (57.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[36mCart Load (0.6ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 119ms (Views: 0.2ms | ActiveRecord: 103.5ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:32:47 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:32:53 -0500
+Processing by Api::ShopController#show as */*
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/add_to_cart?name=Supah+Warbird&quantity=2" for 127.0.0.1 at 2019-01-19 21:33:18 -0500
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Supah Warbird", "quantity"=>"2"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Supah Warbird' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  `carts`.* FROM `carts` WHERE `carts`.`item_id` = 7397489 LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:69
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO `carts` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Warbird', 'Durability', 7397489, 92.07, 2, '2019-01-20 02:33:18', '2019-01-20 02:33:18')[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[35m (27.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+Completed 200 OK in 88ms (Views: 0.3ms | ActiveRecord: 63.8ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:33:31 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:33:37 -0500
+Processing by Api::ShopController#show as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/complete_cart" for 127.0.0.1 at 2019-01-19 21:36:35 -0500
+Processing by Api::ShopController#complete_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[36mCart Destroy (0.6ms)[0m  [1m[31mDELETE FROM `carts` WHERE `carts`.`id` = 2[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[35m (15.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:88
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 17.1ms)
+
+
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:36:45 -0500
+Processing by Api::ShopController#show as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/add_to_cart?name=Supah+Warbird&quantity=2" for 127.0.0.1 at 2019-01-19 21:38:05 -0500
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Supah Warbird", "quantity"=>"2"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Supah Warbird' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  `carts`.* FROM `carts` WHERE `carts`.`item_id` = 7397489 LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:69
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO `carts` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Warbird', 'Durability', 7397489, 92.07, 2, '2019-01-20 02:38:05', '2019-01-20 02:38:05')[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[35m (38.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+Completed 200 OK in 133ms (Views: 0.4ms | ActiveRecord: 107.6ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:38:17 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/complete_cart" for 127.0.0.1 at 2019-01-19 21:38:23 -0500
+Processing by Api::ShopController#complete_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:106
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'={:name=>"Supah Warbird"}):
+  
+app/controllers/api/shop_controller.rb:106:in `block in products_in_cart'
+app/controllers/api/shop_controller.rb:96:in `products_in_cart'
+app/controllers/api/shop_controller.rb:88:in `complete_cart'
+Started GET "/api/complete_cart" for 127.0.0.1 at 2019-01-19 21:45:12 -0500
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::ShopController#complete_cart as */*
+  [1m[36mCart Load (0.6ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` IS NULL LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:106
+Completed 404 Not Found in 85ms (ActiveRecord: 69.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'={:item_id=>7397489}):
+  
+app/controllers/api/shop_controller.rb:106:in `block in products_in_cart'
+app/controllers/api/shop_controller.rb:96:in `products_in_cart'
+app/controllers/api/shop_controller.rb:88:in `complete_cart'
+Started GET "/api/complete_cart" for 127.0.0.1 at 2019-01-19 21:46:56 -0500
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /Users/dalipjandir/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::ShopController#complete_cart as */*
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Supah Warbird' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:106
+  [1m[36mProduct Update (52.4ms)[0m  [1m[33mUPDATE `products` SET `quantity` = 23 WHERE `products`.`id` = 1[0m
+  ↳ app/controllers/api/shop_controller.rb:107
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[36mCart Destroy (0.3ms)[0m  [1m[31mDELETE FROM `carts` WHERE `carts`.`id` = 3[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+Completed 200 OK in 95ms (Views: 0.6ms | ActiveRecord: 75.4ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:47:15 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/create_cart/" for 127.0.0.1 at 2019-01-19 21:47:21 -0500
+Processing by Api::ShopController#create_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:34
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:47:30 -0500
+Processing by Api::ShopController#show as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/add_to_cart?name=Supah+Warbird&quantity=3" for 127.0.0.1 at 2019-01-19 21:47:54 -0500
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Supah Warbird", "quantity"=>"3"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Supah Warbird' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  `carts`.* FROM `carts` WHERE `carts`.`item_id` = 7397489 LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:69
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[36mCart Create (0.5ms)[0m  [1m[32mINSERT INTO `carts` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Supah Warbird', 'Durability', 7397489, 92.07, 3, '2019-01-20 02:47:54', '2019-01-20 02:47:54')[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[35m (112.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+Completed 200 OK in 124ms (Views: 0.1ms | ActiveRecord: 114.0ms)
+
+
+Started GET "/api/add_to_cart?name=Cheetah&quantity=16" for 127.0.0.1 at 2019-01-19 21:48:06 -0500
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Cheetah", "quantity"=>"16"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Cheetah' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/add_to_cart?name=Cheetah&quantity=15" for 127.0.0.1 at 2019-01-19 21:48:14 -0500
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Cheetah", "quantity"=>"15"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Cheetah' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  `carts`.* FROM `carts` WHERE `carts`.`item_id` = 9648334 LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:69
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO `carts` (`name`, `description`, `item_id`, `price`, `quantity`, `created_at`, `updated_at`) VALUES ('Cheetah', 'Enhanced Touch', 9648334, 21.51, 15, '2019-01-20 02:48:14', '2019-01-20 02:48:14')[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+  [1m[35m (74.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:72
+Completed 200 OK in 79ms (Views: 0.2ms | ActiveRecord: 75.3ms)
+
+
+Started GET "/api/view_cart" for 127.0.0.1 at 2019-01-19 21:48:21 -0500
+Processing by Api::ShopController#view_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/complete_cart" for 127.0.0.1 at 2019-01-19 21:48:30 -0500
+Processing by Api::ShopController#complete_cart as */*
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:96
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Supah Warbird' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:106
+  [1m[36mProduct Update (65.6ms)[0m  [1m[33mUPDATE `products` SET `quantity` = 20 WHERE `products`.`id` = 1[0m
+  ↳ app/controllers/api/shop_controller.rb:107
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Cheetah' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:106
+  [1m[36mProduct Update (1.0ms)[0m  [1m[33mUPDATE `products` SET `quantity` = 0 WHERE `products`.`id` = 3[0m
+  ↳ app/controllers/api/shop_controller.rb:107
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT `carts`.* FROM `carts`[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[36mCart Destroy (0.3ms)[0m  [1m[31mDELETE FROM `carts` WHERE `carts`.`id` = 4[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[36mCart Destroy (0.3ms)[0m  [1m[31mDELETE FROM `carts` WHERE `carts`.`id` = 5[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/shop_controller.rb:89
+Completed 200 OK in 76ms (Views: 0.3ms | ActiveRecord: 70.2ms)
+
+
+Started GET "/api/show" for 127.0.0.1 at 2019-01-19 21:48:35 -0500
+Processing by Api::ShopController#show as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/api/shop_controller.rb:29
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/cheetah" for 127.0.0.1 at 2019-01-19 21:48:44 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/cheetah"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/add_to_cart?name=Cheetah&quantity=16" for 127.0.0.1 at 2019-01-19 21:48:50 -0500
+Processing by Api::ShopController#add_to_cart as */*
+  Parameters: {"name"=>"Cheetah", "quantity"=>"16"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`name` = 'Cheetah' LIMIT 1[0m
+  ↳ app/controllers/api/shop_controller.rb:54
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
