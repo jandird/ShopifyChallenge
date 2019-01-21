@@ -13,12 +13,9 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: 1598753dalip
-  socket: /tmp/mysql.sock
-
-development:
-  <<: *default
+  username: 'root'
+  password: ''
+  socket: '/cloudsql/shopifychallenge:us-east1:shopify-cloudsql'
   database: shopify
 
 # Warning: The database defined as "test" will be erased and
@@ -49,6 +46,7 @@ test:
 #
 production:
   <<: *default
-  database: ShopifyChallenge_production
-  username: ShopifyChallenge
-  password: <%= ENV['SHOPIFYCHALLENGE_DATABASE_PASSWORD'] %>
+  database: shopify
+  username: 'root'
+  password: ''
+  socket: '/cloudsql/shopifychallenge:us-east1:shopify-cloudsql'

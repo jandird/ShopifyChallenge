@@ -1,0 +1,9 @@
+entrypoint: bundle exec rackup --port $PORT
+env: flex
+runtime: ruby
+
+env_variables:
+  SECRET_KEY_BASE: f371a4c381144574c7ca8b848bf56ba5b927d9278ed39a2bf671daa17a5d6846b8ca2d856a1ba8f176458ed0c21012f2c03170822eececfedc82545f4e0e3f22
+
+beta_settings:
+  cloud_sql_instances: shopifychallenge:us-east1:shopify-cloudsql
